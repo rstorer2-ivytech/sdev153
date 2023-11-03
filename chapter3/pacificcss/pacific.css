@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+dt {
+    color: darkblue;
+    font-weight: 700;
+}
+
+footer {
+    font-size: 0.70em;
+    font-style: italic;
+    text-align: center;
+}
+
+h1 {
+    background-color: #002171;
+    color: white;
+    font-family: Georgia, serif;
+    line-height: 200%;
+}
+
+h2 {
+    color: #1976d2;
+    font-family: Georgia, serif;
+}
+
+nav {
+    font-weight: 700;
+    background-color: skyblue;
+}
+
+.resort {
+    color: #1976d2;
+    font-size: 1.2em;
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-indent: .1em;
+}
