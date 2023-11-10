@@ -4,6 +4,8 @@ body {
     font-family: Verdana, Arial, sans-serif;
     background-image: linear-gradient(to bottom, white, lightblue);
     background-repeat: no-repeat;
+    min-width: 960px;
+    max-width: 2048px;
 }
 
 dt {
