@@ -4,8 +4,6 @@ body {
     font-family: Verdana, Arial, sans-serif;
     background-image: linear-gradient(to bottom, white, lightblue);
     background-repeat: no-repeat;
-    min-width: 960px;
-    max-width: 2048px;
 }
 
 dt {
@@ -80,7 +78,6 @@ nav a { text-decoration: none; }
 
 #wrapper {
     background-color: white;
-    width: 80%;
     min-width: 960px;
     max-width: 2048px;
     margin-right: auto;
