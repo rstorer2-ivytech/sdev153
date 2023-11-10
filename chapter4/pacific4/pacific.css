@@ -84,7 +84,8 @@ nav a { text-decoration: none; }
     margin-right: auto;
     margin-left: auto;
     text-indent: .1em;
-    box-shadow: 5px 5px black;    
+    box-shadow: 5px 5px black;
+    box-sizing: border-box;
 }
 
 #yurthero {
