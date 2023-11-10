@@ -78,6 +78,7 @@ nav a { text-decoration: none; }
 
 #wrapper {
     background-color: white;
+    width: 70%;
     min-width: 960px;
     max-width: 2048px;
     margin-right: auto;
