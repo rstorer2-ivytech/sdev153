@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #90C7E3;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0;
+}
+
+#desktop {
+    display: none;
+}
+
+dt {
+    color: darkblue;
+    font-weight: 700;
+}
+
+footer {
+    font-size: 0.70em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+}
+
+header {
+    padding: 1em;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link,a:visited {
+    color: white;
+}
+
+header a:hover {
+    color: lightblue;
+}
+
+h1 {
+    background-color: #002171;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    color: #1976d2;
+    font-family: Georgia, serif;
+}
+
+h3 {
+    font-family: Georgia, serif;
+}
+
+#homehero {
+    background-image: url(images/coast.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 200% 100%;
+}
+
+main {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: block;
+}
+
+#mobile {
+    display: inline;
+}
+
+nav {
+    font-size: 1.2em;
+    background-color: white;
+    text-align: center;
+}
+
+nav a { text-decoration: none; }
+
+nav a:link {
+    color: #5C7FA3;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #A52A2A;
+}
+
+nav li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+section {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+table {
+    border-color: blue;
+    border: 1px solid blue;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+
+td {
+    text-align: center;
+}
+
+td.text {
+    text-align: left;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+#trailhero {
+    background-image: url(images/trail.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 200% 100%;
+}
+
+
+.resort {
+    color: #1976d2;
+    font-size: 1.2em;
+}
+
+#wrapper {
+    background-color: white;
+    min-width: 960px;
+    max-width: 2048px;
+    text-indent: .1em;
+}
+
+#yurthero {
+    background-image: url(images/yurt.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 200% 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    h1 {
+        font-size: 2em;
+        letter-spacing: .25em;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        padding-right: 2em;
+    }
+    nav li {
+        width: 12em;
+        border-bottom: none;
+    }
+    section {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    #flow {
+        display: flex;
+        flex-direction: row;
+    }
+    #mobile {
+        display: none;
+    }
+    #desktop {
+        display: inline;
+    }
+    #homehero, #yurthero, #trailhero {
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-image: linear-gradient(to bottom, white 20%, #90C7E3 60%, white 100%);
+    }
+    nav ul {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    #wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+}

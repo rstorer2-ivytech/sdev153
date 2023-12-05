@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>test js</title>
+        <script>
+            var h2text = "";
+            function d() {
+                const h2 = document.getElementById("h2");
+                if (h2.innerText == "You clicked me!") {
+                    h2.innerText = h2text;
+                }
+                else {
+                    h2text = h2.innerText;
+                    h2.innerText = "You clicked me!";
+                }
+                //window.alert("You clicked me!");
+            }
+        </script>
+    </head>
+    <body>
+        <h2 id="h2" onclick="d();">
+            Today is 
+            <script>
+                var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May'];
+                var myDate = new Date();
+                document.write(months[myDate.getMonth()-7] + "-" + myDate.getDate());
+                document.write("<br />");
+                for (i = 0; i < 5; i++) {
+                    let m = months[i];
+                    document.write(m +"<br />");
+                }
+            </script>
+            <noscript>Your browser doesn't support javascript</noscript>
+        </h2>
+        <h3>script already executed</h3>
+    </body>
+</html>
